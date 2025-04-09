@@ -2,7 +2,8 @@
 
 **Delivery Sushi** is a real-world full-stack web application built for a local food business. This platform helps users discover top-rated sushi restaurants and provides admin tools to manage menus, taxes, and promotions — with production-grade DevOps practices behind the scenes.
 
-🔗 [View Live](https://www.ottawadeliverysushi.com) 
+🔗 [View Live](https://www.ottawadeliverysushi.com).
+
 📁 *Private GitHub Repository*
 
 ---
