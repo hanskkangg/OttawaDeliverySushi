@@ -17,7 +17,7 @@ This app serves as a **food business locator**, helping customers discover highl
 
 ## 🧱INFRASTRUCTURE
 
-![Blank diagram](https://github.com/user-attachments/assets/10806249-cb32-4252-becd-86a9ed12cb4a)
+![Blank diagram (1)](https://github.com/user-attachments/assets/5b3b1e5b-08b1-4770-9943-db12ed42be42)
 
 ---
 
