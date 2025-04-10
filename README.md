@@ -12,6 +12,13 @@
 
 This app serves as a **food business locator**, helping customers discover highly rated sushi restaurants (4.5★+, 400+ reviews) in the Ottawa region. It also includes a backend admin dashboard to manage business operations — fully integrated with CI/CD, HTTPS redirection, and uptime automation.
 
+
+---
+
+## 🧱INFRASTRUCTURE
+
+![Blank diagram](https://github.com/user-attachments/assets/10806249-cb32-4252-becd-86a9ed12cb4a)
+
 ---
 
 ## 🧱 Tech Stack
@@ -50,6 +57,32 @@ This app serves as a **food business locator**, helping customers discover highl
 
 ---
 
+
+## 🔭 Deployment Pipeline (DevOps Flow)
+
+1. 🧑‍💻 **You push code to GitHub**  
+   - Frontend (HTML, CSS, JS, jQuery)  
+   - Backend (PHP)  
+   - Database logic (MySQL schema updates or queries if versioned)
+
+2. 🔔 **GitHub Webhook is triggered**  
+   - GitHub sends a webhook payload to your Jenkins instance hosted on AWS EC2
+
+3. 🤖 **Jenkins picks up the job**  
+   - Jenkins pulls the latest code from GitHub  
+   - Runs any build/test steps (if configured)  
+   - Executes a custom Bash deployment script
+
+4. 🛄 **Bash Script uses FTP/SFTP**  
+   - Script uploads files directly to your cPanel directory on HostGator
+
+5. 🌐 **HostGator (via cPanel) serves your site**  
+   - Apache + PHP on the server processes backend logic  
+   - Files are live — visible to users through HTTPS-secured URLs (thanks to `.htaccess`)
+
+---
+
+
 ## 💡 Recent Updates
 
 - ✅ Implemented HTTPS redirection in `.htaccess` (Safari fix)
@@ -57,12 +90,6 @@ This app serves as a **food business locator**, helping customers discover highl
 - ✅ Added seasonal menu items + updated HST logic
 - ✅ Optimized for performance and mobile responsiveness
 
----
-
-## 📦 Setup Instructions
-
-> ⚠️ This project is hosted in production and the source code is private.  
-> For demo access or collaboration inquiries, please [email me](mailto:kang0057@algonquinlive.com).
 
 ---
 
