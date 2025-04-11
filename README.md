@@ -61,7 +61,7 @@ This app serves as a **food business locator**, helping customers discover highl
 
 ## 🔭 Deployment Pipeline (DevOps Flow)
 
-1. 🧑‍💻 **You push code to GitHub**  
+1. 🧑‍💻 **Push code to GitHub**  
    - Frontend (HTML, CSS, JS, jQuery)  
    - Backend (PHP)  
    - Database logic (MySQL schema updates or queries if versioned)
